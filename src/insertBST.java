@@ -59,12 +59,6 @@ public class insertBST {
     public static void main(String[] args) {
         insertBST tree = new insertBST();
  
-        /* Let us create following BST
-              50
-           /     \
-          30      70
-         /  \    /  \
-       20   40  60   80 */
         tree.insert(30);
         tree.insert(40);
         tree.insert(23);
